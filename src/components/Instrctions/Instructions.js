@@ -8,7 +8,7 @@ import './Instructions.css'
 
 export default function Instructions({ currentPose }) {
 
-    const [instructions, setInsntructions] = useState(poseInstructions)
+    const [instructions] = useState(poseInstructions)
 
     return (
         <div className="instructions-container">
