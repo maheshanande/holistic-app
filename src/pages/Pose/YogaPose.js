@@ -223,9 +223,7 @@ function Yoga() {
               <h4>Best: {bestPerform} s</h4>
             </div>
           </div>
-        <div>
-    
-          
+        <div className='camera-img-container'>      
           <Webcam 
           width='640px'
           height='480px'
@@ -249,7 +247,7 @@ function Yoga() {
             style={{
               position: 'absolute',
               left: 120,
-              top: 150,
+              top: '20vh',
               zIndex: 1,
               borderRadius:'10px',
               borderColor:'red'
@@ -257,16 +255,15 @@ function Yoga() {
             }}
           >
           </canvas>
-        <div>
+          <div className='img-container'>
+        
             <img 
               src={poseImages[currentPose]}
               className="pose-img"
               alt='no img found!!!'
             />
           </div>
-      
-         
-        </div>
+      </div>
         <button
           onClick={stopPose}
           className="secondary-btn"    

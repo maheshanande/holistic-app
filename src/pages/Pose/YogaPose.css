@@ -4,6 +4,11 @@
     min-height: 100vh;
     
 }
+.camera-img-container{
+    max-height: 100%;
+    max-width: 100%;
+
+}
 
 
 .secondary-btn {
@@ -38,9 +43,10 @@
 }
 .pose-img {
     position: absolute;
-    right: 120px;
-    top: 150px;
-    width: 480px;
+    top:20.5vh;
+    width: 50%;
+    margin-left: 60vw;
+    max-width: 480px;
     aspect-ratio: 1;
 }
 
@@ -68,4 +74,10 @@
 
 #my-canvas {
     transform: rotateY(180deg);
+}
+@media(max-width:500px){
+    .img-container{
+        flex-direction: column;
+        align-items: center;
+    }
 }

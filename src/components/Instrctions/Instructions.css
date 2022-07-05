@@ -20,8 +20,11 @@
 }
 
 .pose-demo-img {
-    margin-top: 15px;
-    height: 420px;
+    margin-top: 10px;
+    height: 10%;
+    max-height: 500px;
+    width: 50%;
+    max-width: 500px;
     aspect-ratio: 1;
     border-radius: 15px;
 }
