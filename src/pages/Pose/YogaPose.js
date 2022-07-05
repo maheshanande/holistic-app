@@ -1,7 +1,7 @@
 import * as poseDetection from '@tensorflow-models/pose-detection';
 import * as tf from '@tensorflow/tfjs';
 import React, { useRef, useState, useEffect } from 'react'
-import backend from '@tensorflow/tfjs-backend-webgl'
+// import backend from '@tensorflow/tfjs-backend-webgl'
 import Webcam from 'react-webcam'
 import { count } from '../../utils/music'; 
  
@@ -50,7 +50,7 @@ function Yoga() {
     if((currentTime - startingTime)/1000 > bestPerform) {
       setBestPerform(timeDiff)
     }
-  }, [currentTime])
+  }, [currentTime,bestPerform,startingTime])
 
 
   useEffect(() => {
@@ -261,6 +261,7 @@ function Yoga() {
             <img 
               src={poseImages[currentPose]}
               className="pose-img"
+              alt='no img found!!!'
             />
           </div>
       
