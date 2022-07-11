@@ -1,15 +1,16 @@
 .instructions-list {
     width: 40%;
     border-radius: 8px;
-    border: 5px solid rgba(255, 255, 255, 0.2);
+    border: 5px solid rgba(255, 255, 255, 0.5);
     padding: 10px;
     margin-top: 10px;
 }
 .instruction {
     margin: 10px;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.0315rem;
     color: white;
     font-weight: 400;
+    font-size: 1rem;
     margin-top: 20px;
 }
 
@@ -20,11 +21,17 @@
 }
 
 .pose-demo-img {
-    margin-top: 10px;
+    margin-top: 15px;
     height: 10%;
     max-height: 500px;
     width: 50%;
-    max-width: 500px;
+    max-width: 400px;
     aspect-ratio: 1;
     border-radius: 15px;
+}
+@media(max-width:500px){
+    .pose-demo-img{
+        flex-direction: column;
+        align-items: center;
+    }
 }

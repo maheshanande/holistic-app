@@ -54,9 +54,8 @@
     height: 80px;
 } */ 
 #pose-dropdown-btn:focus {
-    background-color: white;
     color: black;
-    box-shadow:aliceblue;
+    
 }
 #pose-dropdown-btn:focus-within {
     border-color: rgb(86, 24, 24);
@@ -65,27 +64,28 @@
     margin: 10px;
 }
 .custom-dropdown{
-    margin-left: 600px;
-    margin-right: 500px;
+    
+    margin: 0 40vw 0 40vw;
     justify-content: center;
     padding:12px;
+    width: 50%;
     max-width: 320px;
     position:relative;
-    border-color: black;
     border-width: 10px;
 
 }
 .custom-dropdown-selection{
-    background-color: white;
+    background: rgb(252, 252, 251,0.85);
     border-radius: 6px;
     padding: 16px 16px;
     cursor:pointer;
     border-width:10px ;
+    box-shadow: white;
    
 }
 .custom-dropdown .items-holder{
     border-radius: 6px;
-    background-color: white;
+    background-color: rgb(252, 252, 251,0.6);
     position: absolute;
     top: 100%;
     max-width: 400px;

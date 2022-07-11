@@ -21,6 +21,7 @@ export default function Home() {
 
             <h1 className="description">A Yoga AI Trainer</h1>
             <div className="home-main">
+                
                 <div className="btn-section">
                     <Link to='/start'>
                         <button
@@ -35,6 +36,7 @@ export default function Home() {
 
                 </div>
             </div>
+           
         </div>
     )
 }
