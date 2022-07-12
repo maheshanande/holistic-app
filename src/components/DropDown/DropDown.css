@@ -75,7 +75,7 @@
 
 }
 .custom-dropdown-selection{
-    background: rgb(252, 252, 251,0.85);
+    background: rgb(252, 252, 251,1);
     border-radius: 6px;
     padding: 16px 16px;
     cursor:pointer;
@@ -85,7 +85,7 @@
 }
 .custom-dropdown .items-holder{
     border-radius: 6px;
-    background-color: rgb(252, 252, 251,0.6);
+    background-color: rgb(252, 252, 251,1);
     position: absolute;
     top: 100%;
     max-width: 400px;
