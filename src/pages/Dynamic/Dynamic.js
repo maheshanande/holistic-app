@@ -84,7 +84,7 @@ function Dynamics() {
     let d = tf.gather(tf.sub(landmarks, pose_center_new), 0, 0)
     let max_dist = tf.max(tf.norm(d,'euclidean', 0))
 
-    // normalize scale
+    // normalize scale 
     let pose_size = tf.maximum(tf.mul(torso_size, torso_size_multiplier), max_dist)
     return pose_size
   }
