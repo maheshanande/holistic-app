@@ -56,6 +56,12 @@ export const poseInstructions = {
         "Since the practice of Pranamasana (The Prayer Pose) is mostly seen practiced at the beginning of a yoga session, the breathing will initially be deep and random, but with focus and awareness, the breathing can be calm and deep.",
         "Stay in the pose for up to 10 breaths",
         'Source: verywellfit - https://www.tummee.com/yoga-poses/mountain-pose-namaste'
+    ],
+    Squat: [
+        'Plant your feet on the ground. Keep your feet slightly wider than shoulder-width. Straighten your back. Angle your feet slightly outward toward 10 and 2 o clock, not straight ahead.',
+        'Bend your knees. Pretend as though you are going to sit back in a chair. Keep your heels on the ground. Pull in your abs. Keep your back straight in a neutral position throughout the exercise.',
+        'Lower yourself in a controlled manner. As you go down, push your hips back. Go as low as your body can while still keeping your shins vertical and your heels on the ground.[3]', 
+        'From the lower position, push up off your heels and slowly rise up, balancing by leaning forward as necessary.',
     ]
     
 }

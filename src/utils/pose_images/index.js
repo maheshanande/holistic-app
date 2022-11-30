@@ -6,6 +6,7 @@ import warrior from './warrior.jpg'
 import traingle from './triangle.jpg'
 import shoulderstand from './shoulderstand.png'
 import Namaste from './Namaste.png'
+import squat from './squat.jpg'
 
 export const poseImages = {
     Tree: tree,
@@ -15,7 +16,8 @@ export const poseImages = {
     Warrior: warrior,
     Chair: chair,
     Traingle: traingle,
-    Shoulderstand: shoulderstand
+    Shoulderstand: shoulderstand,
+    Squat: squat
 } 
 
 

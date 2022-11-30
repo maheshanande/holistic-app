@@ -5,6 +5,7 @@ import Home from './pages/Home/Home'
 import Yoga from './pages/Pose/YogaPose'
 // import About from './pages/About/About'
 import Tutorials from './pages/Tutorials/Tutorials'
+import Dynamics from './pages/Dynamic/Dynamic'
 
 import './App.css'
 
@@ -16,15 +17,15 @@ export default function App() {
         <Route path='/start' element={<Yoga />} />
         {/* <Route path='/about' element={<About />} /> */}
         <Route path='/tutorials' element={<Tutorials />} />
+        <Route path='/dynamics' element={<Dynamics />} />
       </Routes>
     </Router>
   )
 }
-// -------------------------------------------------------------------------------------------------------//
 
 
 
-
+// --------------------------------------------------------------------------------------------------------------------------------//
 
 // import * as poseDetection from '@tensorflow-models/pose-detection';
 // import * as tf from '@tensorflow/tfjs';
