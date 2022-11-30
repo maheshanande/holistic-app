@@ -33,13 +33,18 @@ export default function Home() {
                             className="btn start-btn"
                         >Tutorials</button>
                     </Link>
-                    <Link to='/dynamics'>
-                        <button
-                            className="btn start-btn"
-                        >Dynamics</button>
-                    </Link>
+                    
 
                 </div>
+                <div>
+                <Link to='/dynamics'>
+                        <button
+                            className="b1 start-btn"
+                        >Dynamics</button>
+                    </Link>
+                </div>
+                
+                
             </div>
            
         </div>
